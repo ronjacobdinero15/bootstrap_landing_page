@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* HEADER */
+header {
+  color: white;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  font-size: 0.6rem;
+  font-family: din-condensed, sans-serif;
+  font-weight: 600;
+  font-stretch: ultra-condensed;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+/* LOGO */
+.logo {
+  height: 40px;
+  width: 80px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+/* NAV BAR */
+nav {
+  background-color: white;
+}
+nav .nav-list {
+  font-weight: 500;
+}
+/* MAIN */
+main .product {
+  aspect-ratio: 1/1.1;
+}
+.product_container {
+  display: flex;
+  justify-content: center;
+}

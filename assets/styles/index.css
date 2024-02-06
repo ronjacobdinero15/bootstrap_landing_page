@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* HEADER */
+header {
+  color: white;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  font-size: 0.6rem;
+  font-family: din-condensed, sans-serif;
+  font-weight: 600;
+  font-stretch: ultra-condensed;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+/* LOGO */
+.logo {
+  height: 40px;
+  width: 80px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+/* NAV BAR */
+nav {
+  background-color: white;
+}
+nav .nav-list {
+  font-weight: 500;
+}
+nav .social_links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+nav .social_links a {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+nav .social_links a img {
+  height: 40px;
+  width: 40px;
+}
+/* MAIN */
+main {
+  margin: auto;
+  width: 80vw;
+  position: relative;
+}
+
+main::after {
+  content: 'Ride the Thrill, \AOwn the Style';
+  white-space: pre;
+  top: 2%;
+  left: 3%;
+  color: white;
+  font-size: 7vw;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  position: absolute;
+}
+main img {
+  height: 100%;
+  width: 100%;
+  filter: brightness(80%);
+}
+main button {
+  font-size: 3vw;
+  font-weight: 500;
+  font-size: 1vw;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 2% 3%;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease;
+}
+main button:hover {
+  background-color: rgb(205, 205, 205);
+}
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  /* MAIN */
+  main {
+    width: 100vw;
+  }
+  main button {
+    padding: 3% 5%;
+    bottom: 10%;
+  }
+}
