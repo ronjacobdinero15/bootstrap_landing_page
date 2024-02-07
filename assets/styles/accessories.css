@@ -36,6 +36,22 @@ nav {
 nav .nav-list {
   font-weight: 500;
 }
+nav .social_links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+nav .social_links a {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+nav .social_links a img {
+  height: 40px;
+  width: 40px;
+}
 /* MAIN */
 main .product {
   aspect-ratio: 1/1.1;
