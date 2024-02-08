@@ -53,11 +53,3 @@ nav .social_links a img {
   height: 40px;
   width: 40px;
 }
-/* MAIN */
-main .product {
-  aspect-ratio: 1/1.1;
-}
-.product_container {
-  display: flex;
-  justify-content: center;
-}
