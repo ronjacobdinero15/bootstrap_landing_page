@@ -57,7 +57,12 @@ nav .social_links a img {
 main .product {
   aspect-ratio: 1/1.1;
 }
-.product_container {
+main .product_container {
   display: flex;
   justify-content: center;
+}
+main .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
