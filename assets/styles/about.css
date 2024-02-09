@@ -57,10 +57,16 @@ nav .social_links a img {
 main {
   display: flex;
   align-items: center;
+  margin: auto;
+  height: auto;
+  width: 80vw;
 }
-main .about-us {
+main .row {
+  gap: 10px;
+}
+main .about {
   text-align: justify;
 }
-main .about-us h2 {
+main .about h2 {
   margin-bottom: 20px;
 }

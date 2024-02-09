@@ -53,3 +53,9 @@ nav .social_links a img {
   height: 40px;
   width: 40px;
 }
+/* FORM */
+form {
+  margin: auto;
+  width: 80vw;
+  position: relative;
+}
